@@ -42,7 +42,7 @@ fun main() {
         print("${p.v} ")
     }
     println()
-    for (p in Prioridade_3.entries){
-        println(p)
+    for (p in Prioridade_3.values()){
+        println()
     }
 }

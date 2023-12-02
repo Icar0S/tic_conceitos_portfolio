@@ -9,29 +9,30 @@ abstract class mamifero(var nome:String){ // Classe abstrata serve somente para 
     }
 }
 
-class dog(nome:String):mamifero(nome){
-    override fun acorda() {
-        println("Cachorro está acordado")
+class human(nome: String):mamifero(nome){
+    override fun habitat() {
+        println("Terra")
     }
 
-    override fun alimentacao() {
-        println("Cachorro come ração")
+    override fun acorda() {
+        println("Bom dia")
     }
 
     override fun fale() {
-        println("Au au")
+        println("Olá")
     }
 
-    override fun habitat() {
-        println("Casinha do cachorro")
+    override fun alimentacao() {
+        println("Cafe da manha")
+        println("Almoço")
+        println("Janta")
     }
-
 }
 fun main() {
-    var d:dog = dog("Cachorro")
-    d.tempo()
-    d.acorda()
-    d.fale()
-    d.habitat()
-    d.alimentacao()
+    var h:human = human("humano")
+    h.tempo()
+    h.acorda()
+    h.fale()
+    h.habitat()
+    h.alimentacao()
 }

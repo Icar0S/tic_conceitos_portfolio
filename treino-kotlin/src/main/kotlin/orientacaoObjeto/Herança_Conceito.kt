@@ -1,5 +1,5 @@
 
-open class Eletronico(marca:String){
+open class Eletronic(marca:String){
     fun ligar(){
         println("Está ligado")
     }
@@ -9,7 +9,7 @@ open class Eletronico(marca:String){
     var modelo:String = "Teste de herança"
 }
 
-class Computador(marca:String):Eletronico(marca){
+class Computer(marca:String):Eletronico(marca){
     fun InstalarSoftware(){
         println("Instalando Softwares no computador")
     }
