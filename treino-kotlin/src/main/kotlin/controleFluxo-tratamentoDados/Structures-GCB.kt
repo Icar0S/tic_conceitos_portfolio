@@ -1,7 +1,9 @@
+package `controleFluxo-tratamentoDados`
+
 fun main(){
 
     println("########################################################")
-    println("Neste Algoritmo calcularemos a taxa de metabolismo basal")
+    println("Neste Algoritmo calcularemos module3.a taxa de metabolismo basal")
     println("========================================================")
     println("Informe seu sexo: H para homem ou M para mulher")
     val sexo = readLine()
